@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src = "script.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Test</h2>
+        <div class="input-section">
+            <label for="name-value">Name/Value Pair</label>
+            <div class="input-button-group">
+                <input type="text" id="name-value" placeholder="Name=Value">
+                <div class="button-section">
+                    <button class="add-button">Add pair</button>
+                </div>
+            </div>
+        </div>
+    
+        <div class="list-section">
+            <label for="name-value-list">Name/Value Pair List</label>
+            <div class="input-button-group">
+                <select id="name-value-list" size="13" multiple></select>
+                <div class="button-section">
+                    <button id="SortByName">Sort by Name</button>
+                    <button id="SortByValue">Sort by Value</button>
+                    <button id="DeleteAll">Delete All</button>
+                    <button id="DeleteSelected">Delete Selected</button>
+                    <button id="ShowXML">Show XML</button>
+                </div>
+            </div>  
+        </div>
+    <div class="xml-list-section">
+        <label for="xml-list">Name/Value Pair XML</label>
+        <div class="input-button-group">
+            <textarea id="pair-XML" rows="10" readonly></textarea>
+            <div class="button-section">
+                <button id="copy-button">Copy XML</button>
+            </div>
+        </div>
+    </div>
+        
+    </div>
+</body>
+</html>
